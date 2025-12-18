@@ -1,0 +1,23 @@
+{
+  "name": "front-conci-app-publishing",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 3000",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.5.0",
+    "vuetify": "^3.7.0",
+    "@mdi/font": "^7.4.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.0",
+    "vite": "^6.0.0",
+    "vite-plugin-vuetify": "^2.0.4",
+    "sass": "^1.83.0",
+    "sass-loader": "^16.0.0"
+  }
+}

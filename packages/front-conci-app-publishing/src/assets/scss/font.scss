@@ -1,0 +1,130 @@
+b,
+strong {
+  font-weight: bold;
+}
+//hassetsding
+h1 {
+  font-size: 1.875rem;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.015625em;
+}
+h2 {
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: -0.0083333333em;
+}
+h3 {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: -0.0083333333em;
+}
+h4 {
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: -0.0073529412em;
+}
+h5 {
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: -0.0073529412em;
+}
+h6 {
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: -0.0073529412em;
+}
+
+.line-height-normal {
+  line-height: normal !important;
+}
+.valign-middle {
+  vertical-align: middle !important;
+}
+.valign-sub {
+  vertical-align: sub !important;
+}
+.valign-super {
+  vertical-align: super !important;
+}
+.valign-text-bottom {
+  vertical-align: text-bottom !important;
+}
+.valign-text-top {
+  vertical-align: text-top !important;
+}
+.valign-top {
+  vertical-align: top !important;
+}
+.valign-baseline {
+  vertical-align: baseline !important;
+}
+.valign-auto {
+  vertical-align: auto !important;
+}
+.word-break {
+  word-break: break-word !important;
+}
+.word-break-keep {
+  word-break: keep-all !important;
+}
+.word-break-normal {
+  word-break: normal !important;
+}
+.v-input.f14 {
+  .v-label {
+    font-size: 0.875rem;
+  }
+  .v-label--active {
+    font-weight: 300;
+    transform: translateY(-20px) scale(0.85);
+  }
+}
+.v-input.f12 {
+  .v-label {
+    font-size: 0.75rem;
+  }
+}
+.v-input {
+  // font : size
+  @for $i from 10 to 80 {
+    &.f#{$i} .v-label {
+      font-size: #{$i*0.0625}rem !important;
+    }
+  }
+}
+// text turncate
+.ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.line-clamp2 {
+  white-space: normal;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.line-clamp {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.keep-all {
+  word-break: keep-all;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.text-SUIT {
+  font-family: 'SUIT';
+}

@@ -1,11 +1,13 @@
-@import "font-face";
-@import "font";
-@import 'icon';
-@import 'color';
-@import 'layout';
-@import "./components/main";
-@import 'style';
-@import 'common';
+@use "sass:math";
+@forward "font-face";
+@forward "font";
+@use "../fonts/conci-icon/_icon.css";
+@forward "color";
+// @import 'layout';
+@use "./components/main";
+// @import 'style';
+@forward 'common';
+@use "color" as *;
 
 html {
   overflow-y: hidden;
@@ -396,10 +398,10 @@ em {
   .gap-#{$i} {
     gap: $i *1px !important;
     &-y2n {
-      gap: $i/2 *1px $i *1px !important;
+      gap: math.div($i, 2) *1px $i *1px !important;
     }
     &-x2n {
-      gap: $i *1px $i/2 *1px !important;
+      gap: $i *1px math.div($i, 2) *1px !important;
     }
   }
 }

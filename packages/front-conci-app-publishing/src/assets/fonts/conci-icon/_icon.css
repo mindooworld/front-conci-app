@@ -1,0 +1,173 @@
+@font-face {
+  font-family: 'conci-icon'; 
+  
+  src:  url('fonts/conci-icon.eot?wo03k');
+  src:  url('fonts/conci-icon.eot?wo03k#iefix') format('embedded-opentype'),
+        url('fonts/conci-icon.ttf?wo03k') format('truetype'),
+        url('fonts/conci-icon.woff?wo03k') format('woff'),
+        url('fonts/conci-icon.svg?wo03k#icomoon') format('svg');
+  
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'conci-icon' !important;
+  
+  /* 아래는 건드리지 마세요 */
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-ico-sheare:before {
+  content: "\e900";
+  color: #fff;
+}
+.icon-ico-info1:before {
+  content: "\e901";
+  color: #fff;
+}
+.icon-ico-info2:before {
+  content: "\e902";
+  color: #fff;
+}
+.icon-ico-trash:before {
+  content: "\e903";
+  color: #fff;
+}
+.icon-ico-clock:before {
+  content: "\e904";
+  color: #fff;
+}
+.icon-ico-refresh:before {
+  content: "\e905";
+  color: #fff;
+}
+.icon-ico-close:before {
+  content: "\e906";
+  color: #fff;
+}
+.icon-ico-sound:before {
+  content: "\e907";
+  color: #fff;
+}
+.icon-ico-check:before {
+  content: "\e908";
+  color: #fff;
+}
+.icon-ico-minus:before {
+  content: "\e909";
+  color: #fff;
+}
+.icon-ico-plus:before {
+  content: "\e90a";
+  color: #fff;
+}
+.icon-ico-ring-active:before {
+  content: "\e90b";
+  color: #fff;
+}
+.icon-ico-ring-on .path1:before {
+  content: "\e90c";
+  color: rgb(255, 255, 255);
+}
+.icon-ico-ring-on .path2:before {
+  content: "\e90d";
+  margin-left: -1em;
+  color: rgb(198, 57, 73);
+}
+.icon-ico-ring:before {
+  content: "\e90e";
+  color: #fff;
+}
+.icon-ico-arrow-defult:before {
+  content: "\e90f";
+  color: #fff;
+}
+.icon-ico-arrow-back:before {
+  content: "\e910";
+  color: #fff;
+}
+.icon-ico-calender-on:before {
+  content: "\e911";
+  color: #3bd7ca;
+}
+.icon-ico-calender:before {
+  content: "\e912";
+  color: #fff;
+}
+.icon-ico-check2-active:before {
+  content: "\e913";
+  color: #fff;
+}
+.icon-ico-check2:before {
+  content: "\e914";
+  color: #fff;
+}
+.icon-ico-clock2-active:before {
+  content: "\e915";
+  color: #3bd7ca;
+}
+.icon-ico-clock2:before {
+  content: "\e916";
+  color: #fff;
+}
+.icon-ico-favorite:before {
+  content: "\e917";
+  color: #fff;
+}
+.icon-ico-favorite2-active:before {
+  content: "\e918";
+  color: #3bd7ca;
+}
+.icon-ico-favorite2:before {
+  content: "\e919";
+  color: #fff;
+}
+.icon-ico-favorite-active:before {
+  content: "\e91a";
+  color: #fff;
+}
+.icon-ico-home-active:before {
+  content: "\e91b";
+  color: #3bd7ca;
+}
+.icon-ico-home:before {
+  content: "\e91c";
+  color: #fff;
+}
+.icon-ico-my-active:before {
+  content: "\e91d";
+  color: #3bd7ca;
+}
+.icon-ico-my:before {
+  content: "\e91e";
+  color: #fff;
+}
+.icon-ico-setting-active:before {
+  content: "\e91f";
+  color: #3bd7ca;
+}
+.icon-ico-setting:before {
+  content: "\e920";
+  color: #fff;
+}
+.icon-ico-ticket-active:before {
+  content: "\e921";
+  color: #3bd7ca;
+}
+.icon-ico-ticket:before {
+  content: "\e922";
+  color: #fff;
+}
+.icon-ico-search:before {
+  content: "\e923";
+  color: #fff;
+}

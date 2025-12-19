@@ -2,7 +2,7 @@
   <v-app>
     <v-app-bar color="white" elevation="0" class="border-b">
       <template v-slot:prepend>
-        <span class="text-h5 font-weight-black text-orange ml-2" style="font-family: sans-serif; letter-spacing: -1px;">
+        <span class="text-h5 font-weight-black text-orange ml-2 bl-gery-7" style="font-family: sans-serif; letter-spacing: -1px;">
           CONCI
         </span>
       </template>
@@ -23,6 +23,7 @@
           
           <v-btn color="primary" size="large" rounded="pill" block>
             티켓팅 시작하기
+            <i class="icon-ico-trash" style="color: red; font-size: 20px;"></i>
           </v-btn>
         </div>
 
@@ -35,9 +36,6 @@
   // 자바스크립트 로직이 들어갈 곳
 </script>
 
-<style>
-/* 모바일 앱처럼 보이게 배경색 처리 */
-html {
-  background-color: #f5f5f5; 
-}
+<style lang="scss">
+@use './assets/scss/index.scss' as *;
 </style>
